@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Alexander's Web Page</title>
+        <style> 
+            h1 {
+                text-align: center;
+            }
+            h2 {
+                text-align: center;
+                color: maroon
+            }
+            #myParagraph {
+                text-align:center;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+        </style>
+    </head>
+    <body bgcolor="#C4FAF8">
+        <h1>Alexander Resendiz</h1>
+        <h2>Management Information Systems Major <br>
+
+            Co-President | Association for Information Systems <br>
+            
+            Delta Sigma Pi | Lambda Phi Chapter <br>
+            
+            California State University, Long Beach (Class of 2024) <br>
+            
+            m. 951-337-1976 <a href="https://www.linkedin.com/in/alexander-resendiz/">LinkedIn</a></h2>
+
+        <p id="myParagraph">
+            <strong>My Introduction</strong><br><br>
+            Hello! I'm Alexander Resendiz, a driven and accomplished student at California State University Long Beach, pursuing a Bachelor of Science in Business Administration with a focus on Management Information Systems, and boasting an impressive GPA of 3.8.
+            My academic journey is distinguished by a comprehensive curriculum encompassing Business Intelligence, Database Management, and Systems Analysis, among other areas. 
+            As Co-President of the Association for Information Systems, I've successfully spearheaded initiatives leading to a 150% increase in membership and a remarkable 280% boost in revenue, demonstrating my leadership and organizational prowess.<br><br>
+            My professional experiences are as diverse as they are enriching. 
+            In my role as an Information Technology Compliance Intern at Moss Adams LLP, I've honed my skills in IT assurance, risk assessments, and audit processes. 
+            My time as an Academic Peer Tutor at CSULB has not only reinforced my technical expertise in programming languages like Python, SQL, and Java but also underscored my ability to communicate complex concepts effectively. 
+            These experiences, combined with my practical experience at Amazon.com and my academic accolades, including the Robert Thomas Holmes Scholarship and multiple honors lists, paint a picture of a dedicated, multifaceted professional poised to make a significant impact in the field of technology and business. <br>
+        </p>
+        
+        <img src="https://cdn.discordapp.com/attachments/1101730565587222538/1101730901139931136/082A9502.jpg?ex=65c6ff5c&is=65b48a5c&hm=e477425321152cf606cd767f8fa5b7559ed1bd24a97d4529d488ce7d95e4b447&" 
+        style="display: block; margin: auto;"
+        height="576" width="384" <br><br>
+        <ul style="list-style-type: none; text-align: center; padding: 0;">
+            <li><a href="resume.html" id="myResumeLink">My Resume</a></li>
+            <li><a href="https://docs.google.com/document/d/1PaFBmMvK3syDKcEEikP6lCiDJPw2VIHtd--e-mtnbfA/export?format=pdf" download="Alexander_Resendiz_Resume.pdf">Download Resume</a></li>
+            <li><a href="mailto:alexander.resendiz01@student.csulb.edu">Email Me</a></li>
+            <li><a href="https://www.csulb.edu/">Check CSULB</a></li>
+        </ul>
+        <button onclick="showCurrentTime()">Show the current time</button><br>
+        <script>
+            function showCurrentTime() {
+            var currentTime = new Date().toLocaleTimeString();
+            alert(currentTime);
+            console.log(currentTime);
+        }
+        </script>
+        <script>
+            function navigateToResume() {
+            window.location.href = 'resume.html';
+        }
+            document.getElementById("resume.html").addEventListener("click", navigateToResume);
+        </script>
+    </body>
+</html>
